@@ -1,0 +1,25 @@
+Sample Name,product_smiles,product_yield,product_name,side_product1_smiles,side_product1_yield,side_product1_name,side_product2_smiles,side_product2_yield,side_product2_name
+A1,CC(OC(N1CCCC1CC2=CC=CC=C2)=O)(C)C,15,tert-butyl 2-benzylpyrrolidine-1-carboxylate,CNC,27,sproduct01,CNCC,15,sproduct02
+A2,CC1=CC=C(S(N2CCC(CC3=CC=CC=C3)CC2)(=O)=O)C=C1,15,4-benzyl-1-tosylpiperidine,CNC,26,sproduct01,CNCC,13,sproduct02
+A3,O=C(OCc1ccccc1)NC(CC2=CC=CC=C2)Cc3cnc[nH]3,0,benzyl (1-(1H-imidazol-5-yl)-3-phenylpropan-2-yl)carbamate,CNC,29,sproduct01,CNCC,29,sproduct02
+A4,O=C(c1ccccc1)NC2CCCCC2CC3=CC=CC=C3,5,N-(2-benzylcyclohexyl)benzamide,CNC,5,sproduct01,CNCC,21,sproduct02
+A5,Nc1ccc(CCCCC2=CC=CC=C2)cc1,0,4-(4-phenylbutyl)aniline,CNC,31,sproduct01,CNCC,28,sproduct02
+A6,BrC(C=C1)=CN=C1CCC2=CC=CC=C2,0,5-bromo-2-phenethylpyridine,CNC,27,sproduct01,CNCC,30,
+B1,FC(C1=CC=C(CC2CCCN2C(OC(C)(C)C)=O)C=C1)(F)F,5,tert-butyl 2-(4-(trifluoromethyl)benzyl)pyrrolidine-1-carboxylate,CNC,2,sproduct01,CNCC,12,sproduct02
+B2,CC1=CC=C(S(N2CCC(CC3=CC=C(C(F)(F)F)C=C3)CC2)(=O)=O)C=C1,0,1-tosyl-4-(4-(trifluoromethyl)benzyl)piperidine,CNC,32,sproduct01,CNCC,14,sproduct02
+B3,O=C(OCc1ccccc1)NC(CC2=CC=C(C(F)(F)F)C=C2)Cc3cnc[nH]3,0,benzyl (1-(1H-imidazol-5-yl)-3-(4-(trifluoromethyl)phenyl)propan-2-yl)carbamate,CNC,3,sproduct01,CNCC,32,sproduct02
+B4,O=C(c1ccccc1)NC2CCCCC2CC3=CC=C(C(F)(F)F)C=C3,0,N-(2-(4-(trifluoromethyl)benzyl)cyclohexyl)benzamide,CNC,9,sproduct01,CNCC,26,sproduct02
+B5,Nc1ccc(CCCCC2=CC=C(C(F)(F)F)C=C2)cc1,0,4-(4-(4-(trifluoromethyl)phenyl)butyl)aniline,CNC,4,sproduct01,CNCC,26,sproduct02
+B6,BrC(C=C1)=CN=C1CCC2=CC=C(C(F)(F)F)C=C2,0,5-bromo-2-(4-(trifluoromethyl)phenethyl)pyridine,CNC,28,sproduct01,CNCC,29,
+C1,C=C(C)CC1N(C(OC(C)(C)C)=O)CCC1,10,tert-butyl 2-(2-methylallyl)pyrrolidine-1-carboxylate,CNC,7,sproduct01,CNCC,10,sproduct02
+C2,C=C(C)CC1CCN(S(C2=CC=C(C)C=C2)(=O)=O)CC1,5,4-(2-methylallyl)-1-tosylpiperidine,CNC,28,sproduct01,CNCC,17,sproduct02
+C3,O=C(OCc1ccccc1)NC(CC(C)=C)Cc2cnc[nH]2,0,benzyl (1-(1H-imidazol-5-yl)-4-methylpent-4-en-2-yl)carbamate,CNC,9,sproduct01,CNCC,10,sproduct02
+C4,O=C(c1ccccc1)NC2CCCCC2CC(C)=C,5,N-(2-(2-methylallyl)cyclohexyl)benzamide,CNC,7,sproduct01,CNCC,7,sproduct02
+C5,Nc1ccc(CCCCC(C)=C)cc1,0,4-(5-methylhex-5-en-1-yl)aniline,CNC,11,sproduct01,CNCC,7,sproduct02
+C6,BrC(C=C1)=CN=C1CCC(C)=C,0,5-bromo-2-(3-methylbut-3-en-1-yl)pyridine,CNC,4,sproduct01,CNCC,6,
+D1,CC(OC(N1CCCC1C2CCCCC2)=O)(C)C,0,tert-butyl 2-cyclohexylpyrrolidine-1-carboxylate,CNC,26,sproduct01,CNCC,22,sproduct02
+D2,CC1=CC=C(S(N2CCC(C3CCCCC3)CC2)(=O)=O)C=C1,0,4-cyclohexyl-1-tosylpiperidine,CNC,16,sproduct01,CNCC,7,sproduct02
+D3,O=C(OCc1ccccc1)NC(C2CCCCC2)Cc3cnc[nH]3,0,benzyl (1-cyclohexyl-2-(1H-imidazol-5-yl)ethyl)carbamate,CNC,2,sproduct01,CNCC,6,sproduct02
+D4,O=C(c1ccccc1)NC2CCCCC2C3CCCCC3,0,"N-([1,1'-bi(cyclohexan)]-2-yl)benzamide",CNC,12,sproduct01,CNCC,15,sproduct02
+D5,Nc1ccc(CCCC2CCCCC2)cc1,0,4-(3-cyclohexylpropyl)aniline,CNC,27,sproduct01,CNCC,27,sproduct02
+D6,BrC(C=C1)=CN=C1CC2CCCCC2,0,5-bromo-2-(cyclohexylmethyl)pyridine,CNC,20,sproduct01,CNCC,3,sproduct02

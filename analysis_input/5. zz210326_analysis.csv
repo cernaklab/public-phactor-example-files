@@ -1,0 +1,97 @@
+Sample Name,product_yield,product_smiles,product_name
+A1,70.67757009,CC(OC(N1CCCC1CC2=CC=CC=C2)=O)(C)C,tert-butyl 2-benzylpyrrolidine-1-carboxylate
+B1,59.9009901,CC(OC(N1CCCC1CC2=CC=C(C)C=C2)=O)(C)C,tert-butyl 2-(4-methylbenzyl)pyrrolidine-1-carboxylate
+C1,73.26295585,CC(OC(N1CCCC1CC2=CC=C(C(F)(F)F)C=C2)=O)(C)C,tert-butyl 2-(4-(trifluoromethyl)benzyl)pyrrolidine-1-carboxylate
+D1,43.00564972,ClC(C=C1)=CC(Cl)=C1CC2N(C(OC(C)(C)C)=O)CCC2,"tert-butyl 2-(2,4-dichlorobenzyl)pyrrolidine-1-carboxylate"
+E1,100,CC(OC(N1CCCC1C2CCCCC2)=O)(C)C,tert-butyl 2-cyclohexylpyrrolidine-1-carboxylate
+F1,99.81685714,CC(OC(N1CCCC1C2CCCC2)=O)(C)C,tert-butyl 2-cyclopentylpyrrolidine-1-carboxylate
+G1,5.805047619,CC(COC1=C(C)C=CC=C1C)C2N(C(OC(C)(C)C)=O)CCC2,"tert-butyl 2-(1-(2,6-dimethylphenoxy)propan-2-yl)pyrrolidine-1-carboxylate"
+H1,15.88952381,O=C(OC(C)(C)C)CC1N(C(OC(C)(C)C)=O)CCC1,tert-butyl 2-(2-(tert-butoxy)-2-oxoethyl)pyrrolidine-1-carboxylate
+A2,43.14709236,CC(OC(NC(CC1=CC=CC=C1)C(C)C)=O)(C)C,tert-butyl (3-methyl-1-phenylbutan-2-yl)carbamate
+B2,14.55156951,CC(C=C1)=CC=C1CC(NC(OC(C)(C)C)=O)C(C)C,tert-butyl (3-methyl-1-(p-tolyl)butan-2-yl)carbamate
+C2,35.37444934,CC(OC(NC(CC1=CC=C(C(F)(F)F)C=C1)C(C)C)=O)(C)C,tert-butyl (3-methyl-1-(4-(trifluoromethyl)phenyl)butan-2-yl)carbamate
+D2,17.40506329,ClC(C=C1Cl)=CC=C1CC(NC(OC(C)(C)C)=O)C(C)C,"tert-butyl (1-(2,4-dichlorophenyl)-3-methylbutan-2-yl)carbamate"
+E2,20.01904762,CC(OC(NC(C1CCCCC1)C(C)C)=O)(C)C,tert-butyl (1-cyclohexyl-2-methylpropyl)carbamate
+F2,4.528952381,CC(OC(NC(C1CCCC1)C(C)C)=O)(C)C,tert-butyl (1-cyclopentyl-2-methylpropyl)carbamate
+G2,0,CC(COC1=C(C)C=CC=C1C)C(NC(OC(C)(C)C)=O)C(C)C,"tert-butyl (1-(2,6-dimethylphenoxy)-2,4-dimethylpentan-3-yl)carbamate"
+H2,0,O=C(OC(C)(C)C)CC(NC(OC(C)(C)C)=O)C(C)C,tert-butyl 3-((tert-butoxycarbonyl)amino)-4-methylpentanoate
+A3,82.13390476,CC(OC(NC(CC1=CC=CC=C1)CC(C)C)=O)(C)C,tert-butyl (4-methyl-1-phenylpentan-2-yl)carbamate
+B3,35.23561905,CC(C=C1)=CC=C1CC(NC(OC(C)(C)C)=O)CC(C)C,tert-butyl (4-methyl-1-(p-tolyl)pentan-2-yl)carbamate
+C3,0,CC(OC(NC(CC1=CC=C(C(F)(F)F)C=C1)CC(C)C)=O)(C)C,tert-butyl (4-methyl-1-(4-(trifluoromethyl)phenyl)pentan-2-yl)carbamate
+D3,32.29895238,ClC(C=C1Cl)=CC=C1CC(NC(OC(C)(C)C)=O)CC(C)C,"tert-butyl (1-(2,4-dichlorophenyl)-4-methylpentan-2-yl)carbamate"
+E3,14.16352381,CC(OC(NC(C1CCCCC1)CC(C)C)=O)(C)C,tert-butyl (1-cyclohexyl-3-methylbutyl)carbamate
+F3,13.856,CC(OC(NC(C1CCCC1)CC(C)C)=O)(C)C,tert-butyl (1-cyclopentyl-3-methylbutyl)carbamate
+G3,9.091333333,CC(COC1=C(C)C=CC=C1C)C(NC(OC(C)(C)C)=O)CC(C)C,"tert-butyl (1-(2,6-dimethylphenoxy)-2,5-dimethylhexan-3-yl)carbamate"
+H3,1.009142857,O=C(OC(C)(C)C)CC(NC(OC(C)(C)C)=O)CC(C)C,tert-butyl 3-((tert-butoxycarbonyl)amino)-5-methylhexanoate
+A4,72.72914521,CCCC(NC(OC(C)(C)C)=O)CC1=CC=CC=C1,tert-butyl (1-phenylpentan-2-yl)carbamate
+B4,55.3972381,CC(C=C1)=CC=C1CC(NC(OC(C)(C)C)=O)CCC,tert-butyl (1-(p-tolyl)pentan-2-yl)carbamate
+C4,51.2812381,CCCC(NC(OC(C)(C)C)=O)CC1=CC=C(C(F)(F)F)C=C1,tert-butyl (1-(4-(trifluoromethyl)phenyl)pentan-2-yl)carbamate
+D4,82.2987619,ClC(C=C1Cl)=CC=C1CC(NC(OC(C)(C)C)=O)CCC,"tert-butyl (1-(2,4-dichlorophenyl)pentan-2-yl)carbamate"
+E4,14.38942857,CCCC(NC(OC(C)(C)C)=O)C1CCCCC1,tert-butyl (1-cyclohexylbutyl)carbamate
+F4,25.31419048,CCCC(NC(OC(C)(C)C)=O)C1CCCC1,tert-butyl (1-cyclopentylbutyl)carbamate
+G4,0,CC(COC1=C(C)C=CC=C1C)C(NC(OC(C)(C)C)=O)CCC,"tert-butyl (1-(2,6-dimethylphenoxy)-2-methylhexan-3-yl)carbamate"
+H4,0,O=C(OC(C)(C)C)CC(NC(OC(C)(C)C)=O)CCC,tert-butyl 3-((tert-butoxycarbonyl)amino)hexanoate
+A5,87.59259259,CC(NC(OC(C)(C)C)=O)CC1=CC=CC=C1,tert-butyl (1-phenylpropan-2-yl)carbamate
+B5,81.59836066,CC(C=C1)=CC=C1CC(NC(OC(C)(C)C)=O)C,tert-butyl (1-(p-tolyl)propan-2-yl)carbamate
+C5,19.74219048,CC(NC(OC(C)(C)C)=O)CC1=CC=C(C(F)(F)F)C=C1,tert-butyl (1-(4-(trifluoromethyl)phenyl)propan-2-yl)carbamate
+D5,59.5,ClC(C=C1Cl)=CC=C1CC(NC(OC(C)(C)C)=O)C,"tert-butyl (1-(2,4-dichlorophenyl)propan-2-yl)carbamate"
+E5,11.48161905,CC(NC(OC(C)(C)C)=O)C1CCCCC1,tert-butyl (1-cyclohexylethyl)carbamate
+F5,4.501619048,CC(NC(OC(C)(C)C)=O)C1CCCC1,tert-butyl (1-cyclopentylethyl)carbamate
+G5,1.25352381,CC(COC1=C(C)C=CC=C1C)C(NC(OC(C)(C)C)=O)C,"tert-butyl (4-(2,6-dimethylphenoxy)-3-methylbutan-2-yl)carbamate"
+H5,0,O=C(OC(C)(C)C)CC(NC(OC(C)(C)C)=O)C,tert-butyl 3-((tert-butoxycarbonyl)amino)butanoate
+A6,66.15859938,CC(OC(NC(CC1=CC=CC=C1)CCSC)=O)(C)C,tert-butyl (4-(methylthio)-1-phenylbutan-2-yl)carbamate
+B6,50.08714597,CC(C=C1)=CC=C1CC(NC(OC(C)(C)C)=O)CCSC,tert-butyl (4-(methylthio)-1-(p-tolyl)butan-2-yl)carbamate
+C6,86.84210526,CC(OC(NC(CC1=CC=C(C(F)(F)F)C=C1)CCSC)=O)(C)C,tert-butyl (4-(methylthio)-1-(4-(trifluoromethyl)phenyl)butan-2-yl)carbamate
+D6,37.50747757,ClC(C=C1Cl)=CC=C1CC(NC(OC(C)(C)C)=O)CCSC,"tert-butyl (1-(2,4-dichlorophenyl)-4-(methylthio)butan-2-yl)carbamate"
+E6,3.369428571,CC(OC(NC(C1CCCCC1)CCSC)=O)(C)C,tert-butyl (1-cyclohexyl-3-(methylthio)propyl)carbamate
+F6,2.017428571,CC(OC(NC(C1CCCC1)CCSC)=O)(C)C,tert-butyl (1-cyclopentyl-3-(methylthio)propyl)carbamate
+G6,0,CC(COC1=C(C)C=CC=C1C)C(NC(OC(C)(C)C)=O)CCSC,"tert-butyl (1-(2,6-dimethylphenoxy)-2-methyl-5-(methylthio)pentan-3-yl)carbamate"
+H6,0,O=C(OC(C)(C)C)CC(NC(OC(C)(C)C)=O)CCSC,tert-butyl 3-((tert-butoxycarbonyl)amino)-5-(methylthio)pentanoate
+A7,42.98885714,CC(OC(NC(CC1=CC=CC=C1)CC2=CC=CC=C2)=O)(C)C,"tert-butyl (1,3-diphenylpropan-2-yl)carbamate"
+B7,48.01561905,CC(C=C1)=CC=C1CC(NC(OC(C)(C)C)=O)CC2=CC=CC=C2,tert-butyl (1-phenyl-3-(p-tolyl)propan-2-yl)carbamate
+C7,29.16829746,CC(OC(NC(CC1=CC=C(C(F)(F)F)C=C1)CC2=CC=CC=C2)=O)(C)C,tert-butyl (1-phenyl-3-(4-(trifluoromethyl)phenyl)propan-2-yl)carbamate
+D7,35.17821782,ClC(C=C1Cl)=CC=C1CC(NC(OC(C)(C)C)=O)CC2=CC=CC=C2,"tert-butyl (1-(2,4-dichlorophenyl)-3-phenylpropan-2-yl)carbamate"
+E7,3.102095238,CC(OC(NC(C1CCCCC1)CC2=CC=CC=C2)=O)(C)C,tert-butyl (1-cyclohexyl-2-phenylethyl)carbamate
+F7,12.05942623,CC(OC(NC(C1CCCC1)CC2=CC=CC=C2)=O)(C)C,tert-butyl (1-cyclopentyl-2-phenylethyl)carbamate
+G7,0,CC(COC1=C(C)C=CC=C1C)C(NC(OC(C)(C)C)=O)CC2=CC=CC=C2,"tert-butyl (4-(2,6-dimethylphenoxy)-3-methyl-1-phenylbutan-2-yl)carbamate"
+H7,0,O=C(OC(C)(C)C)CC(NC(OC(C)(C)C)=O)CC1=CC=CC=C1,tert-butyl 3-((tert-butoxycarbonyl)amino)-4-phenylbutanoate
+A8,18.34714286,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)CC2=CC=CC=C2,tert-butyl (1-(perfluorophenyl)-3-phenylpropan-2-yl)carbamate
+B8,9.521238095,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)CC2=CC=C(C)C=C2,tert-butyl (1-(perfluorophenyl)-3-(p-tolyl)propan-2-yl)carbamate
+C8,0,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)CC2=CC=C(C(F)(F)F)C=C2,tert-butyl (1-(perfluorophenyl)-3-(4-(trifluoromethyl)phenyl)propan-2-yl)carbamate
+D8,1.848380952,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)CC2=CC=C(Cl)C=C2Cl,"tert-butyl (1-(2,4-dichlorophenyl)-3-(perfluorophenyl)propan-2-yl)carbamate"
+E8,0,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)C2CCCCC2,tert-butyl (1-cyclohexyl-2-(perfluorophenyl)ethyl)carbamate
+F8,0,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)C2CCCC2,tert-butyl (1-cyclopentyl-2-(perfluorophenyl)ethyl)carbamate
+G8,0,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)C(C)COC2=C(C)C=CC=C2C,"tert-butyl (4-(2,6-dimethylphenoxy)-3-methyl-1-(perfluorophenyl)butan-2-yl)carbamate"
+H8,2.096857143,FC(C(F)=C1F)=C(F)C(F)=C1CC(NC(OC(C)(C)C)=O)CC(OC(C)(C)C)=O,tert-butyl 3-((tert-butoxycarbonyl)amino)-4-(perfluorophenyl)butanoate
+A9,48.3304272,COC1=C(OC)C=CC(CCC2=CC=CC=C2)=C1,"1,2-dimethoxy-4-phenethylbenzene"
+B9,36.42008809,CC(C=C1)=CC=C1CCC2=CC(OC)=C(OC)C=C2,"1,2-dimethoxy-4-(4-methylphenethyl)benzene"
+C9,28.51715686,COC1=C(OC)C=CC(CCC2=CC=C(C(F)(F)F)C=C2)=C1,"1,2-dimethoxy-4-(4-(trifluoromethyl)phenethyl)benzene"
+D9,40.84629391,ClC(C=C1Cl)=CC=C1CCC2=CC(OC)=C(OC)C=C2,"2,4-dichloro-1-(3,4-dimethoxyphenethyl)benzene"
+E9,21.74342755,COC1=C(OC)C=CC(CC2CCCCC2)=C1,"4-(cyclohexylmethyl)-1,2-dimethoxybenzene"
+F9,14.24480846,COC1=C(OC)C=CC(CC2CCCC2)=C1,"4-(cyclopentylmethyl)-1,2-dimethoxybenzene"
+G9,0,CC(COC1=C(C)C=CC=C1C)CC2=CC(OC)=C(OC)C=C2,"2-(3-(3,4-dimethoxyphenyl)-2-methylpropoxy)-1,3-dimethylbenzene"
+H9,0,O=C(CCC1=CC(OC)=C(OC)C=C1)OC(C)(C)C,"tert-butyl 3-(3,4-dimethoxyphenyl)propanoate"
+A10,0,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CCC3=CC=CC=C3)C4=CC(OC)=CC=C42,(4-chlorophenyl)(5-methoxy-2-methyl-3-phenethyl-1H-indol-1-yl)methanone
+B10,32.3670045,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CCC3=CC=C(C)C=C3)C4=CC(OC)=CC=C42,(4-chlorophenyl)(5-methoxy-2-methyl-3-(4-methylphenethyl)-1H-indol-1-yl)methanone
+C10,0,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CCC3=CC=C(C(F)(F)F)C=C3)C4=CC(OC)=CC=C42,(4-chlorophenyl)(5-methoxy-2-methyl-3-(4-(trifluoromethyl)phenethyl)-1H-indol-1-yl)methanone
+D10,0,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CCC3=C(Cl)C=C(Cl)C=C3)C4=CC(OC)=CC=C42,"(4-chlorophenyl)(3-(2,4-dichlorophenethyl)-5-methoxy-2-methyl-1H-indol-1-yl)methanone"
+E10,0,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CC3CCCCC3)C4=CC(OC)=CC=C42,(4-chlorophenyl)(3-(cyclohexylmethyl)-5-methoxy-2-methyl-1H-indol-1-yl)methanone
+F10,0,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CC3CCCC3)C4=CC(OC)=CC=C42,(4-chlorophenyl)(3-(cyclopentylmethyl)-5-methoxy-2-methyl-1H-indol-1-yl)methanone
+G10,0,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CC(C)COC3=C(C)C=CC=C3C)C4=CC(OC)=CC=C42,"(4-chlorophenyl)(3-(3-(2,6-dimethylphenoxy)-2-methylpropyl)-5-methoxy-2-methyl-1H-indol-1-yl)methanone"
+H10,0.97912386,O=C(C1=CC=C(Cl)C=C1)N2C(C)=C(CCC(OC(C)(C)C)=O)C3=CC(OC)=CC=C32,tert-butyl 3-(1-(4-chlorobenzoyl)-5-methoxy-2-methyl-1H-indol-3-yl)propanoate
+A11,22.87285843,ClC1=C(NC2=CC=CC=C2CCC3=CC=CC=C3)C(Cl)=CC=C1,"2,6-dichloro-N-(2-phenethylphenyl)aniline"
+B11,31.5688172,ClC1=C(NC2=CC=CC=C2CCC3=CC=C(C)C=C3)C(Cl)=CC=C1,"2,6-dichloro-N-(2-(4-methylphenethyl)phenyl)aniline"
+C11,0,ClC1=C(NC2=CC=CC=C2CCC3=CC=C(C(F)(F)F)C=C3)C(Cl)=CC=C1,"2,6-dichloro-N-(2-(4-(trifluoromethyl)phenethyl)phenyl)aniline"
+D11,0,ClC1=C(NC2=CC=CC=C2CCC3=CC=C(Cl)C=C3Cl)C(Cl)=CC=C1,"2,6-dichloro-N-(2-(2,4-dichlorophenethyl)phenyl)aniline"
+E11,0,ClC1=C(NC2=CC=CC=C2CC3CCCCC3)C(Cl)=CC=C1,"2,6-dichloro-N-(2-(cyclohexylmethyl)phenyl)aniline"
+F11,0,ClC1=C(NC2=CC=CC=C2CC3CCCC3)C(Cl)=CC=C1,"2,6-dichloro-N-(2-(cyclopentylmethyl)phenyl)aniline"
+G11,0,ClC1=C(NC2=CC=CC=C2CC(C)COC3=C(C)C=CC=C3C)C(Cl)=CC=C1,"2,6-dichloro-N-(2-(3-(2,6-dimethylphenoxy)-2-methylpropyl)phenyl)aniline"
+H11,9.468761905,ClC1=C(NC2=CC=CC=C2CCC(OC(C)(C)C)=O)C(Cl)=CC=C1,"tert-butyl 3-(2-((2,6-dichlorophenyl)amino)phenyl)propanoate"
+A12,48.86815129,CC(CC1=CC=CC=C1)C2=CC=C(CC(C)C)C=C2,1-isobutyl-4-(1-phenylpropan-2-yl)benzene
+B12,76.7813394,CC(C=C1)=CC=C1CC(C)C2=CC=C(CC(C)C)C=C2,1-isobutyl-4-(1-(p-tolyl)propan-2-yl)benzene
+C12,67.26335805,CC(CC1=CC=C(C(F)(F)F)C=C1)C2=CC=C(CC(C)C)C=C2,1-isobutyl-4-(1-(4-(trifluoromethyl)phenyl)propan-2-yl)benzene
+D12,61.22617598,ClC(C=C1)=CC(Cl)=C1CC(C)C2=CC=C(CC(C)C)C=C2,"2,4-dichloro-1-(2-(4-isobutylphenyl)propyl)benzene"
+E12,0,CC(C1CCCCC1)C2=CC=C(CC(C)C)C=C2,1-(1-cyclohexylethyl)-4-isobutylbenzene
+F12,0,CC(C1CCCC1)C2=CC=C(CC(C)C)C=C2,1-(1-cyclopentylethyl)-4-isobutylbenzene
+G12,0,CC(COC1=C(C)C=CC=C1C)C(C)C2=CC=C(CC(C)C)C=C2,"2-(3-(4-isobutylphenyl)-2-methylbutoxy)-1,3-dimethylbenzene"
+H12,0,O=C(CC(C)C1=CC=C(CC(C)C)C=C1)OC(C)(C)C,tert-butyl 3-(4-isobutylphenyl)butanoate

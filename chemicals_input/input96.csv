@@ -1,0 +1,16 @@
+﻿atp,chemicalName,chemtype,density,factor,molarMass,molarity,order,smiles
+1.2,p-t diazonium,Nucleophile,1,TRUE,206.0638,0.1,1,N#[N+]C1=CC=C(C)C=C1.FB(F)F.[F-]
+1.2,FLUORESCEIN SODIUM,Electrophile,1,TRUE,376.275,0.1,1,[Na+].[Na+].[O-]C(=O)c1ccccc1C2=C3C=CC(=O)C=C3Oc4cc([O-])ccc24
+1.2,fluorescein,Electrophile,1,TRUE,332.0685,0.1,1,O=C1OC2(C3=C(OC4=C2C=CC(O)=C4)C=C(O)C=C3)C5=C1C=CC=C5
+1.2,"TETRAKIS(ACETONITRILE)COPPER(I) TETRAFLUOROBORATE, 99%",Catalyst1,1,TRUE,314.562,0.1,1,CC#N.CC#N.CC#N.CC#N.F[B-](F)(F)F.[Cu+]
+1.2,"NICKEL(II) CHLORIDE ETHYLENE GLYCOL DIMETHYL ETHER COMPLEX, 98%",Catalyst1,1,TRUE,219.721,0.1,1,COCCOC.Cl[Ni]Cl
+1.2,"2,4,6-COLLIDINE 99%",Ligand1,1,TRUE,121.183,0.1,1,Cc1cc(C)nc(C)c1
+1.2,"4,4'-DI-TERT-BUTYL-2,2'-DIPYRIDYL, 98%",Ligand1,1,TRUE,268.404,0.1,1,CC(C)(C)C1=CC=NC(C2=CC(C(C)(C)C)=CC=N2)=C1
+1.2,"TRIPHENYLPHOSPHINE, 99%",Ligand1,1,TRUE,262.292,0.1,1,c1ccc(cc1)P(c2ccccc2)c3ccccc3
+1.2,"ETHYLENEBIS(DIPHENYLPHOSPHINE), 99%",Ligand1,1,TRUE,398.426,0.1,1,C(CP(c1ccccc1)c2ccccc2)P(c3ccccc3)c4ccccc4
+1.2,"4,4',4""-TRI-TERT-BUTYL-2,2':6',2""TERPYRIDINE, 97%",Ligand1,1,TRUE,401.598,0.1,1,CC(C)(C)c1ccnc(c1)c2cc(cc(n2)c3cc(ccn3)C(C)(C)C)C(C)(C)C
+1.2,none,Ligand1,1,TRUE,1,0.1,1,
+1.2,Potassium Carbonate,BaseAcid,1,TRUE,138.204,0.1,1,O=C([O-])[O-].[K+].[K+]
+1.2,"ACETIC ACID, GLACIAL, 99+%",BaseAcid,1,TRUE,60.052,0.1,1,CC(O)=O
+1.2,"MANGANESE, POWDER, -325 MESH, 99+%",ReductantOxidant,1,TRUE,54.938,0.1,1,[Mn]
+1.2,"1,4-BENZOQUINONE, 98.0+%",ReductantOxidant,1,TRUE,108.096,0.1,1,O=C1C=CC(=O)C=C1
