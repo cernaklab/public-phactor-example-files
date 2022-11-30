@@ -1,0 +1,14 @@
+﻿atp,chemicalName,chemtype,color,density,factor,id,molarMass,molarity,order,smiles
+1.2,"2,5-dibromo-4-(methylamino)phenol",Nucleophile,#470e61,1,TRUE,1,280.95,0.1,1,BrC1=C(O)C=C(Br)C(NC)=C1
+1.2,ethyl 3-oxo-4-(phenylthio)butanoate,Electrophile,#355f8d,1,TRUE,2,238.3,0.1,1,O=C(CC(OCC)=O)CSC1=CC=CC=C1
+1.2,Copper (I) Iodide,Catalyst1,#365c8d,1,TRUE,3,190.45,0.02,1,[Cu+].[I-]
+1.2,Copper (I) Bromide,Catalyst1,#65cb5e,1,TRUE,4,143.45,0.045,1,[Cu+].[Br-]
+1.2,Copper(II) triflate,Catalyst1,#40bd72,1,TRUE,5,361.68,0.045,1,FC(F)(F)S(=O)(=O)O[Cu]OS(=O)(=O)C(F)(F)F
+1.2,Cu(Oac)2,Catalyst1,#2b748e,1,TRUE,6,181.63,0.045,1,CC([O-])=O.CC([O-])=O.[Cu+2]
+1.2,No Additive,Additive,#481a6c,1,TRUE,9,1,0.03,1,C
+1.2,Magnesium Sulfate,Additive,#32658e,1,TRUE,10,120.36,0.03,1,O=S([O-])([O-])=O.[Mg+2]
+1.2,No Ligand,Ligand1,#26ad81,1,TRUE,11,1,0.03,1,C
+1.2,2-(1H-tetrazol-1-yl)acetic acid,Ligand1,#32658e,1,TRUE,12,128.09,0.03,1,O=C(O)CN1N=NN=C1
+1.2,"2,6-dimethylanilino(oxo)acetic acid",Ligand1,#26ad81,1,TRUE,13,193.2,0.03,1,O=C(O)C(NC1=C(C)C=CC=C1C)=O
+1.2,Cesium Carbonate,BaseAcid,#32658e,1,TRUE,14,325.82,0.03,1,[O-]C([O-])=O.[Cs+].[Cs+]
+1.2,DMSO,Solvent1,#26ad81,1,TRUE,15,78.13,0.1,1,O=S(C)C

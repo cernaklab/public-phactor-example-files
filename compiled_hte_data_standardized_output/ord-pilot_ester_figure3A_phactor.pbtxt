@@ -1,0 +1,3386 @@
+name: "ester_pilot_24_final_results_figure3A_phactor"
+description: "DOI: 10.1038/s42004-022-00698-0"
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[N+]([O-])[O-].[Ag+].[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccncc1"
+        }
+        identifiers {
+          type: NAME
+          value: "pyridine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 18.5
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccncc1"
+        }
+        identifiers {
+          type: NAME
+          value: "pyridine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 16.5
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccncc1"
+        }
+        identifiers {
+          type: NAME
+          value: "pyridine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 3.2
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]"
+        }
+        identifiers {
+          type: NAME
+          value: "Pd(dba)2"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccncc1"
+        }
+        identifiers {
+          type: NAME
+          value: "pyridine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate Repeat1"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccncc1"
+        }
+        identifiers {
+          type: NAME
+          value: "pyridine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COCCOC.Cl[Ni]Cl"
+        }
+        identifiers {
+          type: NAME
+          value: "NiCl2\342\200\242dme"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccncc1"
+        }
+        identifiers {
+          type: NAME
+          value: "pyridine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[N+]([O-])[O-].[Ag+].[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)(C)c1ccnc(-c2cc(C(C)(C)C)ccn2)c1"
+        }
+        identifiers {
+          type: NAME
+          value: "4,4\342\200\262-Di-tert-butyl-2,2\342\200\262-dipyridyl"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 6.2
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)(C)c1ccnc(-c2cc(C(C)(C)C)ccn2)c1"
+        }
+        identifiers {
+          type: NAME
+          value: "4,4\342\200\262-Di-tert-butyl-2,2\342\200\262-dipyridyl"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)(C)c1ccnc(-c2cc(C(C)(C)C)ccn2)c1"
+        }
+        identifiers {
+          type: NAME
+          value: "4,4\342\200\262-Di-tert-butyl-2,2\342\200\262-dipyridyl"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]"
+        }
+        identifiers {
+          type: NAME
+          value: "Pd(dba)2"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)(C)c1ccnc(-c2cc(C(C)(C)C)ccn2)c1"
+        }
+        identifiers {
+          type: NAME
+          value: "4,4\342\200\262-Di-tert-butyl-2,2\342\200\262-dipyridyl"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate Repeat1"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)(C)c1ccnc(-c2cc(C(C)(C)C)ccn2)c1"
+        }
+        identifiers {
+          type: NAME
+          value: "4,4\342\200\262-Di-tert-butyl-2,2\342\200\262-dipyridyl"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COCCOC.Cl[Ni]Cl"
+        }
+        identifiers {
+          type: NAME
+          value: "NiCl2\342\200\242dme"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(C)(C)c1ccnc(-c2cc(C(C)(C)C)ccn2)c1"
+        }
+        identifiers {
+          type: NAME
+          value: "4,4\342\200\262-Di-tert-butyl-2,2\342\200\262-dipyridyl"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[N+]([O-])[O-].[Ag+].[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+        }
+        identifiers {
+          type: NAME
+          value: "triphenylphosphine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 4.5
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+        }
+        identifiers {
+          type: NAME
+          value: "triphenylphosphine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+        }
+        identifiers {
+          type: NAME
+          value: "triphenylphosphine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]"
+        }
+        identifiers {
+          type: NAME
+          value: "Pd(dba)2"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+        }
+        identifiers {
+          type: NAME
+          value: "triphenylphosphine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate Repeat1"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+        }
+        identifiers {
+          type: NAME
+          value: "triphenylphosphine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COCCOC.Cl[Ni]Cl"
+        }
+        identifiers {
+          type: NAME
+          value: "NiCl2\342\200\242dme"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "c1ccc(P(c2ccccc2)c2ccccc2)cc1"
+        }
+        identifiers {
+          type: NAME
+          value: "triphenylphosphine"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=[N+]([O-])[O-].[Ag+].[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21"
+        }
+        identifiers {
+          type: NAME
+          value: "xantphos"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "[Cu+].[I-]"
+        }
+        identifiers {
+          type: NAME
+          value: "Copper (I) Iodide"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21"
+        }
+        identifiers {
+          type: NAME
+          value: "xantphos"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21"
+        }
+        identifiers {
+          type: NAME
+          value: "xantphos"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.O=C(/C=C/c1ccccc1)/C=C/c1ccccc1.[Pd]"
+        }
+        identifiers {
+          type: NAME
+          value: "Pd(dba)2"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21"
+        }
+        identifiers {
+          type: NAME
+          value: "xantphos"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC(=O)[O-].CC(=O)[O-].O=[N+]([O-])[O-].[Ag+].[Pd+2]"
+        }
+        identifiers {
+          type: NAME
+          value: "Palladium (II) Acetate + Silver Nitrate Repeat1"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21"
+        }
+        identifiers {
+          type: NAME
+          value: "xantphos"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
+reactions {
+  inputs {
+    key: "Catalyst1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "COCCOC.Cl[Ni]Cl"
+        }
+        identifiers {
+          type: NAME
+          value: "NiCl2\342\200\242dme"
+        }
+        amount {
+          moles {
+            value: 0.003
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Electrophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccc([N+]#N)cc1.FB(F)F.[F-]"
+        }
+        identifiers {
+          type: NAME
+          value: "p-toluidine diazonium BF4- salt"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Ligand1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "CC1(C)c2cccc(P(c3ccccc3)c3ccccc3)c2Oc2c(P(c3ccccc3)c3ccccc3)cccc21"
+        }
+        identifiers {
+          type: NAME
+          value: "xantphos"
+        }
+        amount {
+          moles {
+            value: 0.0045
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Nucleophile"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "Cc1ccccc1C(=O)O"
+        }
+        identifiers {
+          type: NAME
+          value: "2-methylbenzoic acid"
+        }
+        amount {
+          moles {
+            value: 0.01
+            units: MILLIMOLE
+          }
+        }
+        reaction_role: REACTANT
+        is_limiting: false
+      }
+    }
+  }
+  inputs {
+    key: "Solvent1"
+    value {
+      components {
+        identifiers {
+          type: SMILES
+          value: "placeholder"
+        }
+        identifiers {
+          type: NAME
+          value: "MeCN"
+        }
+        amount {
+          volume {
+            value: 100.0
+            units: MICROLITER
+          }
+          volume_includes_solutes: true
+        }
+        reaction_role: SOLVENT
+        is_limiting: false
+      }
+    }
+  }
+  outcomes {
+    products {
+      identifiers {
+        type: SMILES
+        value: "Cc1ccc(OC(=O)c2ccccc2C)cc1"
+      }
+      identifiers {
+        type: NAME
+        value: "p-tolyl 2-methylbenzoate"
+      }
+      is_desired_product: true
+      measurements {
+        analysis_key: "UPLC-MS Integration"
+        type: YIELD
+        uses_internal_standard: true
+        percentage {
+          value: 0.0
+          precision: 5.0
+        }
+      }
+      reaction_role: PRODUCT
+    }
+  }
+}
